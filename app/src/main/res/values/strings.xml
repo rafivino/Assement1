@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Assesment1_6706213142</string>
+    <string name="judul">Aplikasi Pembayaran Kosan</string>
+    <string name="namaTextview">Nama Mahasiswa</string>
+    <string name="noKamarTextview">Nomer Kamar</string>
+    <string name="kelasTextview">Kelas</string>
+    <string name="keteranganTextview">Keterangan</string>
+    <string name="fasilitasTextview">Fasilitas</string>
+    <string name="totalTextview">TOTAL = 0</string>
+    <string name="tombol1">3 Bulan</string>
+    <string name="tombol2">6 Bulan</string>
+    <string name="tombol3">1 Tahun</string>
+    <string name="tombol4">Kamar mandi dalam</string>
+    <string name="tombol5">Kamar mandi luar</string>
+    <string name="clearButton">CLEAR</string>
+    <string name="sumbitButton">Sumbit</string>
+</resources>
