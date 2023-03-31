@@ -42,8 +42,8 @@
                 android:id="@+id/nama_inp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="text"
-                android:hint="@string/namaTextview" />
+                android:hint="@string/namaTextview"
+                android:inputType="text" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -58,13 +58,12 @@
             app:layout_constraintTop_toBottomOf="@+id/nama_hint">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/NIM_inp"
+                android:id="@+id/noKamar_inp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="number"
-                android:hint="@string/noKamarTextview" />
+                android:hint="@string/noKamarTextview"
+                android:inputType="number" />
         </com.google.android.material.textfield.TextInputLayout>
-
 
 
         <TextView
@@ -161,6 +160,8 @@
             android:layout_marginStart="144dp"
             android:layout_marginTop="24dp"
             android:text="@string/clearButton"
+            app:layout_constraintEnd_toStartOf="@+id/sumbitButton"
+            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/radioGroup2" />
 
@@ -168,14 +169,11 @@
             android:id="@+id/sumbitButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="130dp"
-            android:layout_marginTop="24dp"
-            android:layout_marginEnd="35dp"
             android:text="@string/sumbitButton"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toEndOf="@id/clearButton"
-            app:layout_constraintTop_toBottomOf="@id/radioGroup2" />
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/clearButton"
+            app:layout_constraintTop_toTopOf="@+id/clearButton" />
 
         <View
             android:id="@+id/garisView"
@@ -197,6 +195,17 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/garisView" />
+
+        <TextView
+            android:id="@+id/totalHasil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="0"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/totalTextView" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

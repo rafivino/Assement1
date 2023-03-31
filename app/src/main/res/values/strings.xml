@@ -6,7 +6,7 @@
     <string name="kelasTextview">Kelas</string>
     <string name="keteranganTextview">Keterangan</string>
     <string name="fasilitasTextview">Fasilitas</string>
-    <string name="totalTextview">TOTAL = 0</string>
+    <string name="totalTextview">TOTAL</string>
     <string name="tombol1">3 Bulan</string>
     <string name="tombol2">6 Bulan</string>
     <string name="tombol3">1 Tahun</string>
@@ -14,4 +14,10 @@
     <string name="tombol5">Kamar mandi luar</string>
     <string name="clearButton">CLEAR</string>
     <string name="sumbitButton">Sumbit</string>
+    <string name="totalHasil">%1$.2f</string>
+    <string name="nama_invalid">Isikan Nama</string>
+    <string name="no_invalid">Isikan No Kamar</string>
+    <string name="bln_invalid">Pilih Berapa Bulan</string>
+    <string name="kmrmandi_invalid">Pilih Kamar mandi dalam atau luar</string>
+    <string name="clear_invalid">Tidak ada yang harus diclear</string>
 </resources>
